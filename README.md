@@ -26,33 +26,32 @@ This project focuses on real-world commercial analytics: snowflake data modeling
 
 ## 📂 Repository Structure
 
-```text
-    AirBnb_Global_Performance_Dashboard/
-    │
-    ├── assets/
-    │   ├── icons/                    # UI elements and buttons
-    │   │   ├── air bnb logo.png
-    │   │   ├── Star.webp
-    │   │   ├── Magnifying glass.png
-    │   │   └── SHIELD.PNG
-    │   │
-    │   └── screenshots/              # High-resolution report views
-    │       ├── 1_overview.png
-    │       ├── 2_ratings.png
-    │       └── 3_reviews.png
-    │
-    ├── dashboard/
-    │   └── Airbnb_Performance_Analysis.pbix  # (Hosted in GitHub Releases due to >100MB limit)
-    │
-    ├── data/
-    │   ├── Listings.csv
-    │   └── data_dictionary.csv
-    │
-    ├── docs/
-    │   └── Airbnb_Performance_Report.pdf
-    │
-    ├── .gitignore
-    └── README.md
+        AirBnb_Global_Performance_Dashboard/
+        │
+        ├── assets/
+        │   ├── icons/                    # UI elements and buttons
+        │   │   ├── air bnb logo.png
+        │   │   ├── Star.webp
+        │   │   ├── Magnifying glass.png
+        │   │   └── SHIELD.PNG
+        │   │
+        │   └── screenshots/              # High-resolution report views
+        │       ├── 1_overview.png
+        │       ├── 2_ratings.png
+        │       └── 3_reviews.png
+        │
+        ├── dashboard/
+        │   └── Airbnb_Performance_Analysis.pbix  # (Hosted in GitHub Releases due to >100MB limit)
+        │
+        ├── data/
+        │   ├── Listings.csv
+        │   └── data_dictionary.csv
+        │
+        ├── docs/
+        │   └── Airbnb_Performance_Report.pdf
+        │
+        ├── .gitignore
+        └── README.md
 
 
 ## 🖥️ Dashboard Architecture & Visual Walkthrough
