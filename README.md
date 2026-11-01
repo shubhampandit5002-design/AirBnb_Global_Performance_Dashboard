@@ -12,7 +12,7 @@ This project focuses on real-world commercial analytics: snowflake data modeling
 ## 📥 Deliverables & Quick Access
 
 - 📄 **[Download Executive Summary (PDF)](docs/Airbnb_Performance_Report.pdf)**
-- 💻 **[Download Power BI Dashboard Model (.pbix)](https://github.com/shubhampandit5002-design/AirBnb_Global_Performance_Dashboard/releases)** *(Available under Releases)*
+- 💻 **[Download Power BI Dashboard Model (.pbix)]([https://github.com/shubhampandit5002-design/AirBnb_Global_Performance_Dashboard/releases](https://github.com/shubhampandit5002-design/AirBnb_Global_Performance_Dashboard/releases/download/v1.0.0/Airbnb_Performance_Analysis.pbix))** 
 - 📂 **[Dataset Schema & Dictionary](data/data_dictionary.csv)**
 
 ---
