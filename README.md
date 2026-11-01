@@ -1,19 +1,13 @@
-# 📊 Global Airbnb Performance & Operations Dashboard
+# Global Airbnb Performance & Operations Dashboard
 
-An end-to-end Power BI business intelligence project analyzing **280,000+ listings** and **4.4M+ guest reviews** across 10 global metropolitan markets.
+A Power BI project analyzing 280,000+ listings and 4.4M+ guest reviews across 10 global cities. It covers data modeling (snowflake schema), DAX measures, reviewer retention (Pareto analysis), seasonality, ratings by city and host trust verification.
 
-This project focuses on real-world commercial analytics: snowflake data modeling, complex DAX measures, customer retention diagnostics (Pareto analysis), seasonality patterns, pricing sensitivity, and host trust verification matrices.
+**Data source:** [Maven Analytics Airbnb Listings & Reviews dataset](https://mavenanalytics.io/data-playground/airbnb-listings-reviews)
 
-> **Project Reference:** Developed following the analytical dashboard framework by **Mansi G.** (*End to End Power BI Project: Build an Airbnb Performance Dashboard*).  
-> **Data Source:** [Maven Analytics Airbnb Listings & Reviews Dataset](https://mavenanalytics.io/data-playground/airbnb-listings-reviews).
-
----
-
-## 📥 Deliverables & Quick Access
-
-- 📄 **[Download Executive Summary (PDF)](docs/Airbnb_Performance_Report.pdf)**
-- 💻 **[Download Power BI Dashboard Model (.pbix)]([https://github.com/shubhampandit5002-design/AirBnb_Global_Performance_Dashboard/releases](https://github.com/shubhampandit5002-design/AirBnb_Global_Performance_Dashboard/releases/download/v1.0.0/Airbnb_Performance_Analysis.pbix))** 
-- 📂 **[Dataset Schema & Dictionary](data/data_dictionary.csv)**
+## Deliverables
+- [Executive summary (PDF)](docs/Airbnb_Performance_Report.pdf)
+- [Power BI file (.pbix)](https://github.com/shubhampandit5002-design/AirBnb_Global_Performance_Dashboard/releases/download/v1.0.0/Airbnb_Performance_Analysis.pbix) (hosted in Releases because it is over 100 MB)
+- [Data dictionary](data/data_dictionary.csv)
 
 ---
 
