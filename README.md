@@ -48,7 +48,7 @@ AirBnb_Global_Performance_Dashboard/
 └── README.md
 
 
-🖥️ Dashboard Architecture & Visual Walkthrough
+## 🖥️ Dashboard Architecture & Visual Walkthrough
 1. Market Overview & Expansion Trends
 Evaluates historical listing supply growth, room type splits (Entire Place, Private Room, Hotel Room, Shared Room), and key growth inflection points.
 
@@ -72,7 +72,7 @@ Seasonality Ribbon Chart: Cross-ranks monthly review volume to reveal geographic
 
 Trust Factor Quadrant: Dual-condition distribution analyzing host identity verification and profile picture coverage.
 
-💡 Key Business Findings
+##💡 Key Business Findings
 High Churn Risk in Guest Retention:
 
 86.5% of unique reviewers only left a review once, while 98.8% reviewed 3 times or fewer. Business growth is heavily reliant on recurring customer acquisition rather than recurring customer loyalty.
@@ -89,7 +89,7 @@ High Baseline Platform Trust:
 
 High-risk accounts (unverified with no photo) represent only 0.3% of listings, demonstrating strong platform trust standards.
 
-📐 Core DAX Implementations
+##📐 Core DAX Implementations
 All calculations are organized inside a dedicated _All Measures calculation container.
 
 1. Cumulative Reviewer Frequency Distribution
@@ -134,14 +134,14 @@ DIVIDE(
     ),
     [Total Hosts]
 )
-🛠️ Data Modeling & Engineering Notes
+##🛠️ Data Modeling & Engineering Notes
 Relational Model: A 1-to-many relationship connects Listings[listing_id] to Reviews[listing_id] with bidirectional cross-filtering to allow symmetrical slicing across review metrics and listing attributes.
 
 Chronological Date Sorting: Created calculated columns Review Month = FORMAT(Reviews[date], "mmm") and Month Number = MONTH(Reviews[date]). Applied Sort by Column on Review Month using Month Number to prevent Power BI from sorting months alphabetically.
 
 Outlier Normalization: Built visual-level filters (Show in Review Frequency Chart = 1) to group extreme review count outliers so charts display frequencies 1–6 and edge values clearly.
 
-🚀 How to Run Locally
+##🚀 How to Run Locally
 Clone the repository:
 
 Bash
