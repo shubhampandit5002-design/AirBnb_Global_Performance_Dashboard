@@ -153,4 +153,4 @@ Download the full datasets from the Maven Analytics Data Playground.
 Open the .pbix file in Power BI Desktop.
 
 
-5. Click the green **Commit changes** button at the top right of the
+
