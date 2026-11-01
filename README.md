@@ -17,6 +17,13 @@ This project focuses on real-world commercial analytics: snowflake data modeling
 
 ---
 
+## 🖥️ Dashboard Preview
+![Airbnb Analysis Overview](assets/screenshots/1_overview.png)
+![Airbnb Ratings Analysis](assets/screenshots/2_ratings.png)
+![Airbnb Review Analysis](assets/screenshots/3_reviews.png)
+
+---
+
 ## 📂 Repository Structure
 
 ```text
